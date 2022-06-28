@@ -4,12 +4,9 @@ function sym(array1, array2, rest) {
   
     for (let item of set1) {
       if (!set2.has(item)) result.push(item);
-      else set2.delete(item);
     }
-  
     for (let item of set2) {
       if (!set1.has(item)) result.push(item);
-      else set1.delete(item);
     }
   
     return (rest ? sym(result, rest) : result).sort();
