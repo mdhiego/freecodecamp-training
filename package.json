@@ -1,0 +1,20 @@
+{
+  "name": "my_codetrainning-freecodecamp",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./coding-interview-prep/algorithms/symmetric-difference.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdhiego/my_codetrainning-freecodecamp.git"
+  },
+  "keywords": [],
+  "author": "Dhiego Andrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdhiego/my_codetrainning-freecodecamp/issues"
+  },
+  "homepage": "https://github.com/mdhiego/my_codetrainning-freecodecamp#readme"
+}

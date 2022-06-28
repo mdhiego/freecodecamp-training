@@ -8,7 +8,7 @@ function sym(array1, array2, rest) {
     }
   
     for (let item of set2) {
-      if (!set1.has(item)) result.add(item);
+      if (!set1.has(item)) result.push(item);
       else set1.delete(item);
     }
   
