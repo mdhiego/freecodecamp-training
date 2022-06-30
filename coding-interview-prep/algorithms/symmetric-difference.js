@@ -1,7 +1,7 @@
 function sym(...args) {
   const [array1, array2, ...rest] = args;
-  let result = [];
   const [set1, set2] = [new Set(array1), new Set(array2)];
+  let result = [];
 
   set1.forEach((item) => {
     if (!set2.has(item)) result.push(item);
