@@ -3,7 +3,7 @@ function binarySearch(searchList, value) {
 
     do {
         let mid = Math.floor((searchList.length - 1) / 2);
-        arrayPath.push(mid);
+        arrayPath.push(searchList[mid]);
 
         if (searchList[mid] === value) {
             return arrayPath;
@@ -12,7 +12,7 @@ function binarySearch(searchList, value) {
         } else {
             searchList = searchList.slice(mid + 1);
         }
-    } while (searchList.length > 1);
+    } while (searchList.length >= 1);
 
     return 'Value Not Found';
 }
@@ -22,4 +22,4 @@ const testArray = [
     23, 49, 70
 ];
 
-console.log(binarySearch(testArray, 2));
+console.log(binarySearch(testArray, 70));
